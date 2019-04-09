@@ -63,10 +63,4 @@ function initContacts() {
     // contactsInitiaux.forEach(contact => {
     //     tableauContacts.push(new Contact(contact.Nom, contact.Prenom));
     // });
-
-
-    const valeurs = [3, 11, 7, 12, 5, 6];
-    let r = valeurs. reduce((max, elt) => max = max > elt ? max : elt, 0);
-    console.log(r);
-
 }
